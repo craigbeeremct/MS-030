@@ -148,6 +148,19 @@ During this lab, if asked to save the password or to stay signed in, select **Ye
    | Zone name | adatumXXXXXX.onelearndns.com |
    | Dynamic updates | Allow only secure |
 
+1. Right-click **adatumXXXXXX.onelearndns.com**, choose **New host (A or AAAA)…**.
+
+   | Setting | Value |
+   | --- | --- |
+   | Name | NSadatumXXXXXX | 
+   | IP Address | Your public IP address |
+
+1. Right-click **adatumXXXXXX.onelearndns.com**, choose **Properties**.
+
+1. On the **Name Servers** tab, click **Edit**.
+
+1. Type **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** and select **Resolve**. Verify that the IP address is correct (your public IP address) and select **OK** twice.
+
 1. Right-click **adatumXXXXXX.onelearndns.com**, choose **Other new records…**, **Text (TXT)**.
 
    | Setting | Value |
