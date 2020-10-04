@@ -43,9 +43,7 @@ ____________________________________________________________
 
 ### DNS Registration
 
-1. On **LON-DC1**, signed in as **ADATUM\Administrator**.
-
-1. *Follow the instructions in the learnondemand.net "Before you start" section.*
+1. Follow the instructions in the learnondemand.net "Before you start" section.
 
 1. Record the full domain name (`adatumXXXXXX.onelearndns.com`), name server name (`NSadatumXXXXXX`), and public IP address in the text boxes in the LODS interface.
 
