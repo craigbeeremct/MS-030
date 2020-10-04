@@ -155,6 +155,10 @@ During this lab, if asked to save the password or to stay signed in, select **Ye
    | Name | NSadatumXXXXXX | 
    | IP Address | Your public IP address |
 
+1. Right-click the **Start of Authority (SOA)** record, choose **Properties**.
+
+1. Type **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** in the Primary Server textbox select **OK**.
+
 1. Right-click **adatumXXXXXX.onelearndns.com**, choose **Properties**.
 
 1. On the **Name Servers** tab, click **Edit**.
