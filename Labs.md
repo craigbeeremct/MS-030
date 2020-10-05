@@ -155,7 +155,7 @@ During this lab, if asked to save the password or to stay signed in, select **Ye
    | Name | NSadatumXXXXXX | 
    | IP Address | (Your public IP address) |
 
-   *Hint*: Before clicking **Add Host**, copy the sully qualified domain name to the clipboard.
+   *Hint*: Before clicking **Add Host**, copy the fully qualified domain name to the clipboard.
    
 1. Right-click the **Start of Authority (SOA)** record, choose **Properties**.
 
