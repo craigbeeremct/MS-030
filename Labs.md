@@ -134,7 +134,7 @@ During this lab, if asked to save the password or to stay signed in, select **Ye
 
 1. Select **Add a TXT record** then **Continue**.
 
-1. Copy the **TXT value** to the clipboard.
+1. Record the **TXT value**.
 
 1. Open **DNS Manager**.
 
@@ -144,33 +144,35 @@ During this lab, if asked to save the password or to stay signed in, select **Ye
    | --- | --- |
    | Zone type | Primary |
    | Store in Active Directory | Selected |
-   | Replicated to | Domain controllers in the forest |
+   | Replicated | To all DNS servers running on domain controllers in this forest |
    | Zone name | adatumXXXXXX.onelearndns.com |
-   | Dynamic updates | Allow only secure |
+   | Dynamic update | Allow only secure dynamic updates |
 
 1. Right-click **adatumXXXXXX.onelearndns.com**, choose **New host (A or AAAA)…**.
 
    | Setting | Value |
    | --- | --- |
    | Name | NSadatumXXXXXX | 
-   | IP Address | Your public IP address |
+   | IP Address | (Your public IP address) |
 
+   *Hint*: Before clicking **Add Host**, copy the sully qualified domain name to the clipboard.
+   
 1. Right-click the **Start of Authority (SOA)** record, choose **Properties**.
 
-1. Type **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** in the Primary Server textbox select **OK**.
+1. Type (or paste) **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** in the Primary Server textbox and select **OK**.
 
 1. Right-click **adatumXXXXXX.onelearndns.com**, choose **Properties**.
 
 1. On the **Name Servers** tab, click **Edit**.
 
-1. Type **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** and select **Resolve**. Verify that the IP address is correct (your public IP address) and select **OK** twice.
+1. Type (or paste) **NSadatumXXXXXX.adatumXXXXXX.onelearndns.com** in the server fully qualified domain name textbox and select **Resolve**. Verify that the IP address is correct (your public IP address) and select **OK** twice.
 
 1. Right-click **adatumXXXXXX.onelearndns.com**, choose **Other new records…**, **Text (TXT)**.
 
    | Setting | Value |
    | --- | --- |
    | Record name | (Leave blank) |
-   | Text | (Paste the TXT value from above) |
+   | Text | (The TXT value from above) |
 
 1. Switch to the **Microsoft 365 admin center** browser.
 
