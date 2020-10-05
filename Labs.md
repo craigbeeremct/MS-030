@@ -703,7 +703,7 @@ ____________________________________________________________
 
 1. Sign out of the admin center and close Edge.
 
-1. Open Edge. Browse to the **Microsoft 365 admin center** and sign in as **Tameka**.
+1. Open Edge. Browse to the **Microsoft 365 admin center** and sign in as **Christie**.
 
 1. In the Navigation menu, select **Users > Active users**.
 
