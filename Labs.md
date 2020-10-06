@@ -1026,8 +1026,6 @@ ____________________________________________________________
 
 1. At the **Configuration complete** screen, select **Exit**.
 
-1. Open **Windows PowerShell ISE** or **Windows PowerShell**.
-
 
 ### Exercise 6: Verify synchronisation
 
