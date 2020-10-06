@@ -1049,7 +1049,7 @@ ____________________________________________________________
 
 1. Check that Beth Burke (IT) does have an account.
 
-1. Check that Arturs Priede (Research) does not have an account.
+1. Check that Vera Pace (Research) does not have an account.
 
 1. Check that Ada Russell (Marketing) does not have an account.
 
@@ -1068,7 +1068,7 @@ ____________________________________________________________
 
 1. At the **Domain and OU filtering** screen, select the **Research** OU, then select **Next**.
 
-1. At the **Optional features** screen, enable **Password writeback** then select **Next**.
+1. At the **Optional features** screen, verify that **Password hash synchronization** is enabled, enable **Password writeback**, then select **Next**.
 
 1. At the **Ready to configure** screen, select **Configure**.
 
@@ -1090,7 +1090,7 @@ ____________________________________________________________
 
 1. In the Navigation menu, select **Users > Active users**.
 
-1. Check that Arturs Priede (a researcher) does have an account.
+1. Check that Vera Pace does have an account.
 
 ### Exercise 9: Manage AD DS users and groups
 
@@ -1121,7 +1121,7 @@ ____________________________________________________________
    | Scope | Universal |
    | Type | Security |
 
-1. Move **Beth Burke** to the **Marketing** OU.
+1. Move **Vera Pace** to the **Marketing** OU.
 
 1. Edit the **Research** security group.
 
@@ -1152,7 +1152,7 @@ ____________________________________________________________
 
 1. In the Navigation menu, select **Users > Active users**.
 
-1. Check that Beth Burke does not have an account any more.
+1. Check that Vera Pace does not have an account any more.
 
 1. Check that Ada Russell does have an account.
 
