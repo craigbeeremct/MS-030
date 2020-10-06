@@ -1070,7 +1070,7 @@ ____________________________________________________________
 
 1. At the **Domain and OU filtering** screen, select the **Research** OU, then select **Next**.
 
-1. At the **Optional features** screen, select **Next**.
+1. At the **Optional features** screen, enable **Password writeback** then select **Next**.
 
 1. At the **Ready to configure** screen, select **Configure**.
 
