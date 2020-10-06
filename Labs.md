@@ -904,7 +904,7 @@ ____________________________________________________________
 1. Set the UPN suffixes for all users.
 
    ```PowerShell
-   Get-ADUser –Filter * -Properties SamAccountName | ForEach-Object { Set-ADUser $PSItem -UserPrincipalName ($PSItem.SamAccountName + "@adatumXXXXXX.onelearndns.com" ) }
+   Get-ADUser -Filter * -Properties SamAccountName | ForEach-Object { Set-ADUser $PSItem -UserPrincipalName ($PSItem.SamAccountName + "@adatumXXXXXX.onelearndns.com" ) }
    ```
 
 ### Exercise 2: Create issues
