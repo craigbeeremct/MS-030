@@ -1156,6 +1156,8 @@ ____________________________________________________________
 
 1. Check that Ada Russell does have an account.
 
+1. Check that Perry Brill does have an account.
+
 1. In the Navigation menu, select **Groups > Active groups**.
 
 1. Check that Project Team is present.
