@@ -1047,7 +1047,7 @@ ____________________________________________________________
 
 1. Verify that there are more users than before.
 
-1. Check that Vera Pace (IT) does have an account.
+1. Check that Beth Burke (IT) does have an account.
 
 1. Check that Arturs Priede (Research) does not have an account.
 
@@ -1121,7 +1121,7 @@ ____________________________________________________________
    | Scope | Universal |
    | Type | Security |
 
-1. Move **Vera Pace** to the **Marketing** OU.
+1. Move **Beth Burke** to the **Marketing** OU.
 
 1. Edit the **Research** security group.
 
@@ -1152,15 +1152,15 @@ ____________________________________________________________
 
 1. In the Navigation menu, select **Users > Active users**.
 
-1. Check that Vera Pace (IT) does not have an account.
+1. Check that Beth Burke does not have an account any more.
 
-1. Check that Ada Russell (Marketing) does have an account.
+1. Check that Ada Russell does have an account.
 
 1. In the Navigation menu, select **Groups > Active groups**.
 
 1. Check that Project Team is present.
 
-1. Check that Ada is a member of the Research group and that Vera and Tia are not.
+1. Check that Ada is a member of the Research group and that Vera Pace and Tia Zecirevic are not.
 
 
 #### Exercise 12: Assign licenses
