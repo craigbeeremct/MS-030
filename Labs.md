@@ -494,11 +494,11 @@ ____________________________________________________________
 1. Create the users.
 
    ```PowerShell
-   New-MsolUser –UserPrincipalName "catherine@adatumXXXXXX.onelearndns.com" –DisplayName "Catherine Richard" –FirstName "Catherine" –LastName "Richard" –Password "Pa55w.rd1234" –ForceChangePassword $false –UsageLocation "CH"
+   New-MsolUser -UserPrincipalName "catherine@adatumXXXXXX.onelearndns.com" -DisplayName "Catherine Richard" -FirstName "Catherine" -LastName "Richard" -Password "Pa55w.rd1234" -ForceChangePassword $false -UsageLocation "CH"
    ```
 
    ```PowerShell
-   New-MsolUser –UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" –DisplayName "Tameka Reed" –FirstName "Tameka" –LastName "Reed" -Password "Pa55w.rd1234" –ForceChangePassword $false –UsageLocation "CH"
+   New-MsolUser -UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" -DisplayName "Tameka Reed" -FirstName "Tameka" -LastName "Reed" -Password "Pa55w.rd1234" -ForceChangePassword $false -UsageLocation "CH"
    ```
 
 ### Exercise 2: Licence users
@@ -518,11 +518,11 @@ ____________________________________________________________
 1. Assign licenses. Edit the correct license name (LODSXXXXXXX:ENTERPRISEPREMIUM) before running the script.
 
    ```PowerShell
-   Set-MsolUserLicense -UserPrincipalName "catherine@adatumXXXXXX.onelearndns.com" –AddLicenses "LODSXXXXXXX:ENTERPRISEPREMIUM", "LODSXXXXXXX:EMSPREMIUM"
+   Set-MsolUserLicense -UserPrincipalName "catherine@adatumXXXXXX.onelearndns.com" -AddLicenses "LODSXXXXXXX:ENTERPRISEPREMIUM", "LODSXXXXXXX:EMSPREMIUM"
    ```
 
    ```PowerShell
-   Set-MsolUserLicense -UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" –AddLicenses "LODSXXXXXXX:ENTERPRISEPREMIUM", "LODSXXXXXXX:EMSPREMIUM"
+   Set-MsolUserLicense -UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" -AddLicenses "LODSXXXXXXX:ENTERPRISEPREMIUM", "LODSXXXXXXX:EMSPREMIUM"
    ```
 
 ### Exercise 3: Block a user
@@ -590,7 +590,7 @@ ____________________________________________________________
 1. Create a group.
 
    ```PowerShell
-   New-MsolGroup –DisplayName "Marketing" –Description "Marketing department"
+   New-MsolGroup -DisplayName "Marketing" -Description "Marketing department"
    ```
 
 1. Add members.
@@ -626,13 +626,13 @@ ____________________________________________________________
 1. Reset a user’s password.
 
    ```PowerShell
-   Set-MsolUserPassword –UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" –NewPassword "Pa55w.rd9876"
+   Set-MsolUserPassword -UserPrincipalName "tameka@adatumXXXXXX.onelearndns.com" -NewPassword "Pa55w.rd9876"
    ```
 
 1. Disable password expiry for all users (for ease of use during the labs).
 
    ```PowerShell
-   Get-MsolUser | Set-MsolUser –PasswordNeverExpires $true
+   Get-MsolUser | Set-MsolUser -PasswordNeverExpires $true
    ```
 
 
@@ -665,28 +665,28 @@ ____________________________________________________________
 1. Assign roles.
 
    ```PowerShell
-   Add-MsolRoleMember –RoleName "Service Support Administrator" –RoleMemberEmailAddress "sallie@adatumXXXXXX.onelearndns.com"
+   Add-MsolRoleMember -RoleName "Service Support Administrator" -RoleMemberEmailAddress "sallie@adatumXXXXXX.onelearndns.com"
    ```
 
    ```PowerShell
-   Add-MsolRoleMember –RoleName "Company Administrator" –RoleMemberEmailAddress "amy@adatumXXXXXX.onelearndns.com"
+   Add-MsolRoleMember -RoleName "Company Administrator" -RoleMemberEmailAddress "amy@adatumXXXXXX.onelearndns.com"
    ```
 
 1. Verify role membership.
 
    ```PowerShell
-   $role = Get-MsolRole –RoleName "Service Support Administrator"
-   Get-MsolRoleMember –RoleObjectId $role.ObjectId
+   $role = Get-MsolRole -RoleName "Service Support Administrator"
+   Get-MsolRoleMember -RoleObjectId $role.ObjectId
    ```
 
    ```PowerShell
-   $role = Get-MsolRole –RoleName "Billing Administrator"
-   Get-MsolRoleMember –RoleObjectId $role.ObjectId
+   $role = Get-MsolRole -RoleName "Billing Administrator"
+   Get-MsolRoleMember -RoleObjectId $role.ObjectId
    ```
 
    ```PowerShell
-   $role = Get-MsolRole –RoleName "Company Administrator"
-   Get-MsolRoleMember –RoleObjectId $role.ObjectId
+   $role = Get-MsolRole -RoleName "Company Administrator"
+   Get-MsolRoleMember -RoleObjectId $role.ObjectId
    ```
 
 ### Exercise 3: Test service administrators
@@ -948,7 +948,7 @@ ____________________________________________________________
 
    Resolution: In the Action column, select **EDIT**.
 
-1. Issue: Lara Raisic and Logan Boyle have the same email adrress. IdFix doesn't display Logan’s account (it should – this is a bug in the tool).
+1. Issue: Lara Raisic and Logan Boyle have the same email adrress. IdFix doesn't display Logan’s account (it should - this is a bug in the tool).
 
    Resolution: In the Update column, enter **larar@adatum.com**. In the Action column, select **EDIT**.
 
@@ -1465,11 +1465,11 @@ ____________________________________________________________
 
    ```PowerShell
    New-Mailbox -Name "Conference Room" -DisplayName "Conference Room" -Room -Alias "conferenceroom"
-   Set-Mailbox -Identity "Conference Room" –ResourceCapacity 25
+   Set-Mailbox -Identity "Conference Room" -ResourceCapacity 25
    ```
 
    ```PowerShell
-   New-Mailbox -Name "Demonstration Laptop" -DisplayName "Demonstration Laptop" –Equipment -Alias "demonstrationlaptop"
+   New-Mailbox -Name "Demonstration Laptop" -DisplayName "Demonstration Laptop" -Equipment -Alias "demonstrationlaptop"
    ```
 
 1. Set auto-accept.
@@ -1883,7 +1883,7 @@ ____________________________________________________________
 1. Connect to SharePoint Online.
 
    ```PowerShell
-   Connect-SPOService –Url https://LODSAXXXXXX-admin.sharepoint.com -Credential $Credential
+   Connect-SPOService -Url https://LODSAXXXXXX-admin.sharepoint.com -Credential $Credential
    ```
 
 1. Verify connectivity.
@@ -1895,7 +1895,7 @@ ____________________________________________________________
 1. Create a new site.
 
    ```PowerShell
-   New-SPOSite -Url https://LODSAXXXXXX.sharepoint.com/sites/AcctsProj -Owner admin@LODSAXXXXXX.onmicrosoft.com -StorageQuota 500 -NoWait -Template PROJECTSITE#0 –Title "Accounts Project"
+   New-SPOSite -Url https://LODSAXXXXXX.sharepoint.com/sites/AcctsProj -Owner admin@LODSAXXXXXX.onmicrosoft.com -StorageQuota 500 -NoWait -Template PROJECTSITE#0 -Title "Accounts Project"
    ```
 
 #### Task 3: Configure permissions on the site collections
@@ -2108,7 +2108,7 @@ If Seamless SSO has been set up then the AD DS users will not need to provide pa
 
 1. *Repeat the above steps.*
 
-*Note*: Why is the OneDrive for Business folder called “OneDrive – Contoso”? Because the tenant name is “Contoso”.
+*Note*: Why is the OneDrive for Business folder called “OneDrive - Contoso”? Because the tenant name is “Contoso”.
 
 Microsoft 365 admin center, Settings | Org settings, Organization profile, Organization information.
 
@@ -2161,13 +2161,13 @@ Microsoft 365 admin center, Settings | Org settings, Organization profile, Organ
 1. Create a Microsoft 365 group.
 
    ```PowerShell
-   New-UnifiedGroup –DisplayName "Planning Group" -Alias "PlanningGroup" –EmailAddresses "planninggroup@adatumXXXXXX.onelearndns.com" -Owner "MOD Administrator" -Members "Francisco" -AccessType Public
+   New-UnifiedGroup -DisplayName "Planning Group" -Alias "PlanningGroup" -EmailAddresses "planninggroup@adatumXXXXXX.onelearndns.com" -Owner "MOD Administrator" -Members "Francisco" -AccessType Public
    ```
 
 1. Add additional owners.
 
    ```PowerShell
-   Add-UnifiedGroupLinks "Planning Group" –Links "Holly Dickson" –LinkType Owner
+   Add-UnifiedGroupLinks "Planning Group" -Links "Holly Dickson" -LinkType Owner
    ```
 
    Note the “Only Members can be Owners of a group. Please add 'holly' first as members before adding them as owners.” error message.
@@ -2175,13 +2175,13 @@ Microsoft 365 admin center, Settings | Org settings, Organization profile, Organ
 1. Add additional members.
 
    ```PowerShell
-   Add-UnifiedGroupLinks "Planning Group" –Links "Sallie McIntosh", "Holly Dickson" –LinkType Member
+   Add-UnifiedGroupLinks "Planning Group" -Links "Sallie McIntosh", "Holly Dickson" -LinkType Member
    ```
 
 1. Add additional owners.
 
    ```PowerShell
-   Add-UnifiedGroupLinks "Planning Group" –Links "Holly Dickson" –LinkType Owner
+   Add-UnifiedGroupLinks "Planning Group" -Links "Holly Dickson" -LinkType Owner
    ```
 
 1. List groups and members.
