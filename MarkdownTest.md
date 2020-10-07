@@ -1,5 +1,10 @@
 # Markdown Test Document 
 
+:heavy_check_mark: Do this.
+
+:white_check_mark: Do this.
+
+
 ## Task 1
 
 ### Ex 1
