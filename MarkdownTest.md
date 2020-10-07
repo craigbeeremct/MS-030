@@ -9,7 +9,7 @@
 
 ### Ex 1
 
-1. [ ] Do something.
+1. <input type="checkbox" disabled checked /> Do something.
 
 1. [ ] Do something else.
 
