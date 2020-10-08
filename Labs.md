@@ -2238,7 +2238,7 @@ Microsoft 365 admin center, Settings | Org settings, Organization profile, Organ
 
 1. From the home page, select **Outlook**.
 
-1. Note that there is no “You've joined the Planning Group group” e-mail (because Sallie was added using PowerShell). **TODO**
+1. Note that there is no “You've joined the Planning Group group” e-mail (because Sallie was added using PowerShell).
 
 1. In the left pane, select **Planning Group** (scroll down).
 
