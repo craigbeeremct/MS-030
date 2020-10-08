@@ -1890,6 +1890,7 @@ ____________________________________________________________
 
    ```PowerShell
    Get-SpoSite
+   Get-SpoWebTemplate
    ```
 
 1. Create a new site.
