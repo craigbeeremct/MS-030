@@ -2136,7 +2136,7 @@ Microsoft 365 admin center, Settings | Org settings, Organization profile, Organ
    | Privacy | Private |
    | Create a team for this group | Selected |
 
-1. *Refresh* the list until ADatum Marketing appears.
+1. **Refresh** the list until ADatum Marketing appears.
 
 1. Select **ADatum Marketing**. Add a member, select **Amy** and **Cai**.
 
