@@ -190,7 +190,7 @@ Add these to the favourites list in Edge on LON-CL1.
 
 - Microsoft 365 security center - [https://security.microsoft.com](https://security.microsoft.com)
 
-- Office 365 Security & Compliance center - [https://protection.microsoft.com](https://protection.microsoft.com)\
+- Office 365 Security & Compliance center - [https://protection.office.com](https://protection.office.com)\
 (mostly superseded by the above two)
 
 - Microsoft Endpoint Manager admin center - [https://endpoint.microsoft.com](https://endpoint.microsoft.com)
