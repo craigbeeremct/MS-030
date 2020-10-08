@@ -1862,7 +1862,7 @@ ____________________________________________________________
    | Addition owners | (None) |
    | Members | (None) |
 
-1. Select the new site’s name then select **Sharing**
+1. In the Active sites list, select the new site’s name. In the right-hand panel select **Policies** then under External sharing, select **Edit**.
 
 1. Set **Site content can be shared with** to **Anyone**.
 
