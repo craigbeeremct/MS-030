@@ -197,7 +197,7 @@ Add these to the favourites list in Edge on LON-CL1.
 
 - Azure Active Directory admin center - [https://aad.portal.azure.com](https://aad.portal.azure.com)
 
-- Exchange admin center - [https://outlook/office365.com/ecp](https://outlook/office365.com/ecp)
+- Exchange admin center - [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)
 
 - (Preview) Modern Exchange admin center - [https://admin.exchange.microsoft.com](https://admin.exchange.microsoft.com)
 
